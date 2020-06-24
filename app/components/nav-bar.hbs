@@ -1,0 +1,23 @@
+<ul class="nav" id="nav">
+    <li>
+        <LinkTo @route="index" class="menu-item">
+    <li>SuperSkateboards</li>
+    </LinkTo>
+    </li>
+    <li>
+        <LinkTo @route="about" class="menu-item">ABOUT</LinkTo>
+    </li>
+    <li>
+        <LinkTo @route="contact" class="menu-item">CONTACT</LinkTo>
+    </li>
+</ul>
+
+<span class="menu-icon" id="toggle" onclick="menuToggle()"></span>
+<script type="text/javascript">
+    function menuToggle() {
+        var nav = document.getElementById("nav");
+        nav.classList.toggle('active')
+        var toggle = document.getElementById("toggle");
+        toggle.classList.toggle('active')
+    }
+</script>

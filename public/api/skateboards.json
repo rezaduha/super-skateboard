@@ -1,0 +1,184 @@
+{
+  "data": [
+    {
+      "type": "skateboards",
+      "id": "screaming-hand",
+      "attributes": {
+        "title": "Screaming Hand",
+        "construction": "Traditional 7-Ply",
+        "profile": "Medium Concave",
+        "trucks": "Bullet 130mm Trucks",
+        "wheels": "OJ 52mm 99a Wheels",
+        "bearings": "ABEC 3 Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/c89q/9/santa-cruz-screaming-hand-75-complete-skateboard-orange.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply maple wood construction, giving you a deck that is durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Bullet 130mm Trucks - Bullet Trucks are guaranteed against breakage. No slip axle. Strong trucks with a great turn.",
+          "wheels": "OJ 52mm 99a Wheels - A 99a durometer makes this wheel best for pools and parks with a bit more grip than softer varieties. Hard enough that sliding is a breeze while soft enough for a smooth roll and plenty of grip.",
+          "bearings": "ABEC 3 Bearings - Smooth and moderately fast, ABEC 3 bearings are durable and dependable."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "aztecian",
+      "attributes": {
+        "title": "Aztecian",
+        "construction": "Traditional 7-Ply",
+        "profile": "Mellow Concave",
+        "trucks": "Tensor Trucks ",
+        "wheels": "Almost 51mm 83a Wheels",
+        "bearings": "ABEC 5 Bearings",
+        "hardware": "Allen Key",
+        "image": "https://www.tactics.com/a/bysd/9/almost-aztecian-725-soft-wheels-complete-skateboard-black.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Tensor Trucks - Tensor Trucks feature a hollow kingpin to shave weight, making them light and easily maneuverable.",
+          "wheels": "Almost 51mm 83a Wheels - Soft with plenty of grip, but hard enough that sliding through turns and drifting is a breeze. A good cruiser wheel, but more ideal for sliding, you'll be able to ride over rough surfaces without any issues. Also a good filming duro as it's a bit faster than some of the softer varieties.",
+          "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are the go-to bearings for most street skaters."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "leisure-league",
+      "attributes": {
+        "title": "Leisure League",
+        "construction": "Traditional 7-Ply",
+        "profile": "Medium Concave",
+        "trucks": "Tensor Trucks ",
+        "wheels": "Tactics 52mm 99a Wheels",
+        "bearings": "Andale Blues Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/bssu/9/tactics-leisure-league-series-80-complete-skateboard-mini-golf.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Tensor Trucks - Refined geometry makes these trucks lightweight, responsive, and stronger overall. A lowered kingpin gives you extra grind clearance, and a higher axle gives you a little extra wheelbite clearance.",
+          "wheels": "Tactics 52mm 99a Wheels - Solid treaded 99a durometer wheels that will give your traction in the park and in the streets, but also let you slide when you want to.",
+          "bearings": "Andale Blues Bearings - · G5 precision ball bearings for a true roll and higher speeds. High carbon, chromium alloy bearing steel races for high strength to resist cracking and contact rolling fatigue. Removable frictionless rubber shields for easy cleaning."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "soul-servant",
+      "attributes": {
+        "title": "Soul Servant",
+        "construction": "7-Ply Hard Rock Maple",
+        "profile": "Medium Concave",
+        "trucks": "Bullet 130 Trucks",
+        "wheels": "OJ 52mm 99a Wheels",
+        "bearings": "Bullet ABEC 3 Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/c7hy/9/creature-soul-servant-75-complete-skateboard.jpg",
+        "description": {
+          "construction": "7-Ply Hard Rock Maple - Traditional for a reason. Standard 7-ply wood construction, giving you a deck that is durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Bullet 130 Trucks - Strong, lightweight cast aluminum trucks with quick and stable turning geometry, and a softer 84a high rebound performance cushion for an easy turn. Bullet trucks are guaranteed against breakage.",
+          "wheels": "OJ 52mm 99a Wheels - A 99a durometer makes this wheel best for pools and parks with a bit more grip than softer varieties. Hard enough that sliding is a breeze while soft enough for a smooth roll and plenty of grip.",
+          "bearings": "Bullet ABEC 3 Bearings - ABEC rated chrome steel bearings with smooth-spin oil lubrication for an extended roll."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "chain-link",
+      "attributes": {
+        "title": "Chain Link",
+        "construction": "Resin Epoxy / Hybrid Maple",
+        "profile": "Medium Concave",
+        "trucks": "Tensor Trucks",
+        "wheels": "Blind 52mm 100a Wheels",
+        "bearings": "ABEC 5 Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/c7d6/9/blind-chain-link-775-complete-skateboard-gold-foil.jpg",
+        "description": {
+          "construction": "Resin Epoxy / Hybrid Maple. Hybrid Maple construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Tensor Trucks - Tensor Trucks feature a hollow kingpin to shave weight, making them light, easily maneuverable, and uber poppy.",
+          "wheels": "Blind 52mm 100a Wheels - A harder wheel that's great for park or street skating because of its forgiveness and ability to slide easily. Rolls very fast on smooth surfaces, but can be less forgiving on rougher ground.",
+          "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "toy-division",
+      "attributes": {
+        "title": "Toy Division",
+        "construction": "Traditional 7-Ply",
+        "profile": "Mellow Concave",
+        "trucks": "Ruckus Trucks",
+        "wheels": "Toy Machine 52mm Wheels",
+        "bearings": "ABEC 5 Pig Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/ar97/9/toy-machine-toy-division-80-complete-skateboard-black.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply maple wood construction, giving you a deck that is durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Ruckus Trucks - Ruckus trucks offer excellent turning geometry with a quick and stable turning radius. Featuring high-rebound 92a bushings with non-slip, hardened axles and kingpins.",
+          "wheels": "Toy Machine 52mm Wheels - Made for smooth cruising around town or shredding in the skate park. Toy Machine wheels are quality poured for an easy ride over any surface.",
+          "bearings": "ABEC 5 Pig Bearings - Fast, smooth and durable, ABEC 5 hits the sweet spot between performance and price."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "og-water-color",
+      "attributes": {
+        "title": "OG Water Color",
+        "construction": "Traditional 7-Ply",
+        "profile": "Mellow Concave",
+        "trucks": "Tensor Trucks",
+        "wheels": "Blind 52mm 83a Wheels",
+        "bearings": "ABEC 5 Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/c5jg/9/blind-og-water-color-7625-soft-wheel-complete-skateboard-maroon-orange.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Tensor Trucks - Tensor Trucks feature a hollow kingpin to shave weight, making them light, easily maneuverable, and uber poppy.",
+          "wheels": "Blind 52mm 83a Wheels - Soft with plenty of grip, but hard enough that sliding through turns and drifting is a breeze. A good cruiser wheel, but more ideal for sliding, you'll be able to ride over rough surfaces without any issues. Also a good filming duro as it's a bit faster than some of the softer varieties.",
+          "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "enjoy-helvetica",
+      "attributes": {
+        "title": "Enjoy Helvetica",
+        "construction": "Traditional 7-Ply",
+        "profile": "Mellow Concave",
+        "trucks": "Tensor Trucks",
+        "wheels": "Enjoi 52mm 100a Wheels",
+        "bearings": "ABEC 5 Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/c5ho/9/enjoi-helvetica-neue-80-complete-skateboard-mint.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Tensor Trucks - These lightweight trucks make it easier to blast ollies, and the responsive feel let's you turn on a dime.",
+          "wheels": "Enjoi 52mm 100a Wheels - Designed for advanced skating and made to withstand flat-spotting, which can result from excessive sliding with softer durometer wheels. Designed for hard-charging, fast skating in mind.",
+          "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+        }
+      }
+    },
+    {
+      "type": "skateboards",
+      "id": "reaper-ripper",
+      "attributes": {
+        "title": "Reaper Ripper",
+        "construction": "Traditional 7-Ply",
+        "profile": "Mellow Concave",
+        "trucks": "Tensor Trucks",
+        "wheels": "Blind 51mm Wheels",
+        "bearings": "ABEC 5 Bearings",
+        "hardware": "Phillips",
+        "image": "https://www.tactics.com/a/bysi/9/blind-reaper-ripper-70-mini-soft-wheel-complete-skateboard-w-stocking.jpg",
+        "description": {
+          "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+          "trucks": "Tensor Trucks - Tensor Trucks feature a hollow kingpin to shave weight, making them light, easily maneuverable, and uber poppy.",
+          "wheels": "Good for starting out and learning the basics, smoother and less chatter on rough terrain like streets/sidewalks/driveways that almost all kids start skating on. More grip and less sliding out too.",
+          "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+        }
+      }
+    }
+  ]
+}

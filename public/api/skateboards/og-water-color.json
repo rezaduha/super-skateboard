@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "og-water-color",
+    "attributes": {
+      "title": "OG Water Color",
+      "construction": "Traditional 7-Ply",
+      "profile": "Mellow Concave",
+      "trucks": "Tensor Trucks",
+      "wheels": "Blind 52mm 83a Wheels",
+      "bearings": "ABEC 5 Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/c5jg/9/blind-og-water-color-7625-soft-wheel-complete-skateboard-maroon-orange.jpg",
+      "description": {
+        "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Tensor Trucks - Tensor Trucks feature a hollow kingpin to shave weight, making them light, easily maneuverable, and uber poppy.",
+        "wheels": "Blind 52mm 83a Wheels - Soft with plenty of grip, but hard enough that sliding through turns and drifting is a breeze. A good cruiser wheel, but more ideal for sliding, you'll be able to ride over rough surfaces without any issues. Also a good filming duro as it's a bit faster than some of the softer varieties.",
+        "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+      }
+    }
+  }
+}

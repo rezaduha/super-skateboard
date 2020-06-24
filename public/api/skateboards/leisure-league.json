@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "leisure-league",
+    "attributes": {
+      "title": "Leisure League",
+      "construction": "Traditional 7-Ply",
+      "profile": "Medium Concave",
+      "trucks": "Tensor Trucks ",
+      "wheels": "Tactics 52mm 99a Wheels",
+      "bearings": "Andale Blues Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/bssu/9/tactics-leisure-league-series-80-complete-skateboard-mini-golf.jpg",
+      "description": {
+        "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Tensor Trucks - Refined geometry makes these trucks lightweight, responsive, and stronger overall. A lowered kingpin gives you extra grind clearance, and a higher axle gives you a little extra wheelbite clearance.",
+        "wheels": "Tactics 52mm 99a Wheels - Solid treaded 99a durometer wheels that will give your traction in the park and in the streets, but also let you slide when you want to.",
+        "bearings": "Andale Blues Bearings - · G5 precision ball bearings for a true roll and higher speeds. High carbon, chromium alloy bearing steel races for high strength to resist cracking and contact rolling fatigue. Removable frictionless rubber shields for easy cleaning."
+      }
+    }
+  }
+}

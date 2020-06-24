@@ -1,0 +1,16 @@
+<div class="skateboards">
+    <ul class="results">
+        <label>
+            <span>
+                <Input @value={{this.query}} type="text" name="search" placeholder="Search..." />
+            </span>
+        </label>
+        <Skateboards::Filter @skateboards={{@skateboards}} @query={{this.query}} as |results|>
+            {{#each results as |skateboard|}}
+            <li>
+                <Skateboard @skateboard={{skateboard}} />
+            </li>
+            {{/each}}
+        </Skateboards::Filter>
+    </ul>
+</div>

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "soul-servant",
+    "attributes": {
+      "title": "Soul Servant",
+      "construction": "7-Ply Hard Rock Maple",
+      "profile": "Medium Concave",
+      "trucks": "Bullet 130 Trucks",
+      "wheels": "OJ 52mm 99a Wheels",
+      "bearings": "Bullet ABEC 3 Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/c7hy/9/creature-soul-servant-75-complete-skateboard.jpg",
+      "description": {
+        "construction": "7-Ply Hard Rock Maple - Traditional for a reason. Standard 7-ply wood construction, giving you a deck that is durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Bullet 130 Trucks - Strong, lightweight cast aluminum trucks with quick and stable turning geometry, and a softer 84a high rebound performance cushion for an easy turn. Bullet trucks are guaranteed against breakage.",
+        "wheels": "OJ 52mm 99a Wheels - A 99a durometer makes this wheel best for pools and parks with a bit more grip than softer varieties. Hard enough that sliding is a breeze while soft enough for a smooth roll and plenty of grip.",
+        "bearings": "Bullet ABEC 3 Bearings - ABEC rated chrome steel bearings with smooth-spin oil lubrication for an extended roll."
+      }
+    }
+  }
+}

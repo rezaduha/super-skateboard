@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "reaper-ripper",
+    "attributes": {
+      "title": "Reaper Ripper",
+      "construction": "Traditional 7-Ply",
+      "profile": "Mellow Concave",
+      "trucks": "Tensor Trucks",
+      "wheels": "Blind 51mm Wheels",
+      "bearings": "ABEC 5 Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/bysi/9/blind-reaper-ripper-70-mini-soft-wheel-complete-skateboard-w-stocking.jpg",
+      "description": {
+        "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Tensor Trucks - Tensor Trucks feature a hollow kingpin to shave weight, making them light, easily maneuverable, and uber poppy.",
+        "wheels": "Good for starting out and learning the basics, smoother and less chatter on rough terrain like streets/sidewalks/driveways that almost all kids start skating on. More grip and less sliding out too.",
+        "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+      }
+    }
+  }
+}

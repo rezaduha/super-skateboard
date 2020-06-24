@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #222;
+}
+
+section {
+  position: relative;
+  widows: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fffb25;
+  clip-path: polygon(54% 0, 100% 0, 100% 100%, 84% 100%);
+  animation: fade-in 0.5s ease-in forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+
+section .content-landing {
+  position: relative;
+  padding: 100px 50px 100px 150px;
+  box-sizing: border-box;
+  animation: left-in 0.5s ease-in forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+section .content-landing h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+section .content-landing p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+section .content-landing .button {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background: #fffb25;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+section .imgBx {
+  position: relative;
+  padding-right: 100px;
+}
+
+section .imgBx img {
+  max-width: 500px;
+  animation: fade-in 0.5s ease-in forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+.sci {
+  position: absolute;
+  bottom: 75px;
+  left: 150px;
+  display: flex;
+  animation: left-in 0.5s ease-in forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  text-decoration: none;
+  color: #999;
+  margin-right: 30px;
+  font-size: 0.9em;
+}
+
+.sci li a:hover {
+  color: #fff;
+}
+
+.nav {
+  position: absolute;
+  top: 75px;
+  left: 150px;
+  display: flex;
+  border-left: 5px solid #fffb25;
+  padding-left: 20px;
+  animation: left-in 0.5s ease-in forwards;
+  animation-delay: 0s;
+  opacity: 0;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li .menu-item {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 30px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav li .menu-item li {
+  text-decoration: none;
+  color: #fffb25;
+  margin-right: 30px;
+  font-size: 1.5em;
+  text-transform: none;
+  font-weight: 1000;
+  font-style: italic;
+}
+
+.nav li .menu-item:hover {
+  color: #fffb25;
+}
+
+input[type="text"] {
+  width: 20%;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 0;
+  color: #fff;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  animation: fade-in 0.5s ease-in forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+  margin: 0 150px;
+}
+
+input[type="text"]:focus {
+  width: 50%;
+  border-bottom-style: solid;
+  border-bottom-color: #fffb25;
+}
+
+.results {
+  margin-top: 150px;
+}
+
+.results li {
+  list-style: none;
+  padding: 10px 150px;
+}
+
+.board {
+  margin-top: 10px;
+  background-color: #222;
+  top: 75px;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  box-shadow: 0 0 2px 0;
+  color: #fff;
+  animation: slide-up 0.5s ease-in forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.board:hover {
+  box-shadow: 0 0 10px 0;
+}
+
+.board img {
+  border-radius: 100px;
+}
+
+.board .image {
+  flex-grow: 0;
+  flex-basis: 60px;
+  text-align: center;
+}
+
+.board button.image {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  z-index: 1;
+}
+
+.board button.image:focus {
+  outline: none;
+}
+
+.board button.image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin: -20px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #016aba;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.board button.image:focus:after,
+.board button.image:hover:after {
+  opacity: 0.1;
+}
+
+.board .image img {
+  max-width: 100%;
+}
+
+.board .image.large {
+  margin: 30px 25px 50px 25px;
+  flex-basis: 100%;
+  animation: fade-in 0.5s ease-in forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.board .image small {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: -15px;
+  text-align: center;
+  color: rgb(121, 121, 121);
+  font-weight: 1000;
+  font-size: medium;
+
+  /* This is needed to fix a safari clipping issue */
+  position: relative;
+}
+
+.board .image.large small {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 110%;
+}
+
+.board .details {
+  flex-basis: 50%;
+  flex-grow: 2;
+  display: flex;
+  height: 130px;
+  margin: 20px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.board h3 {
+  flex-basis: 100%;
+}
+
+.board h3 a {
+  display: inline;
+  color: #fffb25;
+}
+
+.board h3 a:hover {
+  color: rgb(255, 51, 51);
+}
+
+.board .detail {
+  flex-basis: 50%;
+  font-weight: 300;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.board .detail span {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.board.detailed {
+  background: none;
+  margin-top: 150px;
+  padding: 10px 150px;
+  box-shadow: none;
+  animation: slide-up 0s ease-in forwards;
+}
+
+.description {
+  margin: 10px 250px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.description span {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 5px 10px;
+}
+
+.board.detailed .image {
+  flex-basis: 100px;
+}
+
+.board.detailed .image.large {
+  margin: 30px 25px 50px 25px;
+  flex-basis: 100%;
+}
+
+.board.detailed .details {
+  height: auto;
+}
+
+.board.detailed h3 {
+  font-size: 200%;
+  margin-bottom: 10px;
+}
+
+.board.detailed .detail {
+  margin: 5px 0px;
+  flex-basis: 100%;
+  flex-shrink: 2;
+}
+
+.button-back {
+  display: none;
+}
+
+.container-404 {
+  text-align: center;
+  margin-top: 150px;
+  color: #fff;
+}
+
+.glow {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6e200,
+      0 0 40px #e6e200, 0 0 50px #e6e200, 0 0 60px #e6e200, 0 0 70px #e6e200;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fffb25, 0 0 40px #fffb25,
+      0 0 50px #fffb25, 0 0 60px #fffb25, 0 0 70px #fffb25, 0 0 80px #fffb25;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes left-in {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu-icon {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background: url(../assets/images/menu.png);
+    filter: invert(1);
+    background-size: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 10000;
+    animation: fade-in 0.5s ease-in forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+  }
+
+  .menu-icon.active {
+    background: url(../assets/images/close.png);
+    filter: invert(1);
+    background-size: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 10000;
+    animation: fade-in 0.5s ease-in forwards;
+    animation-delay: 0.1s;
+    opacity: 0;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.93);
+    flex-direction: column;
+    z-index: 11;
+    border: none;
+    padding: 50px;
+  }
+
+  .nav.active {
+    left: 0;
+  }
+
+  .nav li {
+    margin: 5px 0;
+  }
+
+  section {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  section:before {
+    clip-path: polygon(0 0, 100% 0, 100% -10%, 0% 50%);
+  }
+
+  section .content-landing {
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+
+  section .content-landing h2 {
+    font-size: 2em;
+  }
+
+  section .content-landing p {
+    font-size: 1em;
+  }
+
+  section .content-landing .button {
+    font-size: 0.8em;
+    padding: 10px;
+  }
+
+  section .imgBx {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  section .imgBx img {
+    max-width: 500px;
+  }
+
+  .sci {
+    left: 50px;
+    bottom: 30px;
+  }
+
+  .results li {
+    list-style: none;
+    padding: 0px 15px;
+  }
+
+  input[type="text"] {
+    margin: 0 30px;
+    border-bottom-style: solid;
+    border-bottom-color: #fffb25;
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+
+  .board {
+    display: flex;
+    justify-content: center;
+  }
+
+  .board .details {
+    margin: 25px 15px;
+    font-size: small;
+  }
+
+  .board.detailed .image,
+  .board.detailed .image.large {
+    margin: 0;
+    flex-basis: 100%;
+    cursor: pointer;
+  }
+
+  .board.detailed .image:hover {
+    flex-basis: 100%;
+    cursor: pointer;
+  }
+
+  .board.detailed .image small {
+    display: none;
+  }
+
+  .board.detailed button.image:hover:after {
+    opacity: 0;
+  }
+
+  .board.detailed button.image:focus:after {
+    opacity: 0.1;
+  }
+
+  .description {
+    margin: 0 30px;
+    color: #fff;
+  }
+
+  .description span {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 5px 10px;
+  }
+
+  .button-back {
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    display: inline;
+    font-size: 50px;
+  }
+
+  .button-back p {
+    color: #ff25abb2;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+  }
+}

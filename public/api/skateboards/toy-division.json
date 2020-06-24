@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "toy-division",
+    "attributes": {
+      "title": "Toy Division",
+      "construction": "Traditional 7-Ply",
+      "profile": "Mellow Concave",
+      "trucks": "Ruckus Trucks",
+      "wheels": "Toy Machine 52mm Wheels",
+      "bearings": "ABEC 5 Pig Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/ar97/9/toy-machine-toy-division-80-complete-skateboard-black.jpg",
+      "description": {
+        "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply maple wood construction, giving you a deck that is durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Ruckus Trucks - Ruckus trucks offer excellent turning geometry with a quick and stable turning radius. Featuring high-rebound 92a bushings with non-slip, hardened axles and kingpins.",
+        "wheels": "Toy Machine 52mm Wheels - Made for smooth cruising around town or shredding in the skate park. Toy Machine wheels are quality poured for an easy ride over any surface.",
+        "bearings": "ABEC 5 Pig Bearings - Fast, smooth and durable, ABEC 5 hits the sweet spot between performance and price."
+      }
+    }
+  }
+}

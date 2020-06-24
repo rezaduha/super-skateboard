@@ -1,0 +1,26 @@
+<article class="board">
+    <Skateboard::Image src={{@skateboard.image}} alt={{@skateboard.title}} />
+    <div class="details">
+        <h3>
+            <LinkTo @route="skateboard" @model={{@skateboard}}>{{@skateboard.title}}</LinkTo>
+        </h3>
+        <div class="detail">
+            <span>Construction:</span> {{@skateboard.construction}}
+        </div>
+        <div class="detail">
+            <span>Profile:</span> {{@skateboard.profile}}
+        </div>
+        <div class="detail">
+            <span>Trucks</span> {{@skateboard.trucks}}
+        </div>
+        <div class="detail">
+            <span>Wheels:</span> {{@skateboard.wheels}}
+        </div>
+        <div class="detail">
+            <span>Bearings:</span> {{@skateboard.bearings}}
+        </div>
+        <div class="detail">
+            <span>Hardware:</span> {{@skateboard.hardware}}
+        </div>
+    </div>
+</article>

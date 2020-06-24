@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "enjoy-helvetica",
+    "attributes": {
+      "title": "Enjoy Helvetica",
+      "construction": "Traditional 7-Ply",
+      "profile": "Mellow Concave",
+      "trucks": "Tensor Trucks",
+      "wheels": "Enjoi 52mm 100a Wheels",
+      "bearings": "ABEC 5 Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/c5ho/9/enjoi-helvetica-neue-80-complete-skateboard-mint.jpg",
+      "description": {
+        "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply wood construction gives you a deck that's durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Tensor Trucks - These lightweight trucks make it easier to blast ollies, and the responsive feel let's you turn on a dime.",
+        "wheels": "Enjoi 52mm 100a Wheels - Designed for advanced skating and made to withstand flat-spotting, which can result from excessive sliding with softer durometer wheels. Designed for hard-charging, fast skating in mind.",
+        "bearings": "ABEC 5 Bearings - Smooth, fast and durable, ABEC 5 bearings are essentially the go-to bearing for most street skaters."
+      }
+    }
+  }
+}

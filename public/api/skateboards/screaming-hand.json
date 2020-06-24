@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "skateboards",
+    "id": "screaming-hand",
+    "attributes": {
+      "title": "Screaming Hand",
+      "construction": "Traditional 7-Ply",
+      "profile": "Medium Concave",
+      "trucks": "Bullet 130mm Trucks",
+      "wheels": "OJ 52mm 99a Wheels",
+      "bearings": "ABEC 3 Bearings",
+      "hardware": "Phillips",
+      "image": "https://www.tactics.com/a/c89q/9/santa-cruz-screaming-hand-75-complete-skateboard-orange.jpg",
+      "description": {
+        "construction": "Traditional 7-Ply - Traditional for a reason. Standard 7-ply maple wood construction, giving you a deck that is durable, sturdy and poppy without breaking the bank.",
+        "trucks": "Bullet 130mm Trucks - Bullet Trucks are guaranteed against breakage. No slip axle. Strong trucks with a great turn.",
+        "wheels": "OJ 52mm 99a Wheels - A 99a durometer makes this wheel best for pools and parks with a bit more grip than softer varieties. Hard enough that sliding is a breeze while soft enough for a smooth roll and plenty of grip.",
+        "bearings": "ABEC 3 Bearings - Smooth and moderately fast, ABEC 3 bearings are durable and dependable."
+      }
+    }
+  }
+}
