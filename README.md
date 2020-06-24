@@ -1,4 +1,4 @@
-# super-skateboards [![License: MIT](https://badgen.net/badge/license/MIT/blue)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/4469c92b-be46-4d69-8393-a387b89e148c/deploy-status)](https://app.netlify.com/sites/friendly-austin-42d74d/deploys)
+# super-skateboards [![License: MIT](https://badgen.net/badge/license/MIT/blue)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/4469c92b-be46-4d69-8393-a387b89e148c/deploy-status)](https://app.netlify.com/sites/superskateboards/deploys)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
