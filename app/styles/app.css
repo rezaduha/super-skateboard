@@ -580,7 +580,7 @@ input[type="text"]:focus {
   }
 
   .button-back p {
-    color: #ff25abb2;
+    color: #fffb25;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
