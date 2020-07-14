@@ -371,6 +371,11 @@ input[type="text"]:focus {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+::selection {
+  color: #222;
+  background: #fffb25;
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6e200,
